@@ -125,7 +125,7 @@ input[type="checkbox"]:checked ~ .hamburger {
   text-transform: uppercase;
 }
 .featured img {
-  max-width: 30rem;
+  max-height: 20rem;
 }
 .featured a {
   font-weight: 800;
