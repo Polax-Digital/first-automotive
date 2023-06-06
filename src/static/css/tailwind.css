@@ -8,6 +8,11 @@
   src: url("../fonts/Montserrat-SemiBold.ttf");
   font-display: swap;
 }
+@font-face {
+  font-family: "Montserrat Bold";
+  src: url("../fonts/Montserrat-Bold.ttf");
+  font-display: swap;
+}
 html {
   overflow-x: hidden;
 }
@@ -114,6 +119,19 @@ input[type="checkbox"]:checked ~ .hamburger::after {
 }
 input[type="checkbox"]:checked ~ .hamburger {
   transform: translateY(-0.1rem);
+}
+.featured h2 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+.featured img {
+  max-width: 30rem;
+}
+.featured .car-title {
+  font-weight: 800;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-family: "Montserrat Bold";
 }
 
 @media screen and (min-width: 576px) {
