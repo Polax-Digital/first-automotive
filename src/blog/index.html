@@ -5,7 +5,7 @@ layout: blog
 <div class="container-fluid" id="page">
     <div class="posts-wrapper w-100">
         <div class="row">
-            {% set postslist = collections.post | limit(2) %}
+            {% set postslist = collections.post %}
 
             {% for post in postslist | reverse %}
                 <div class="col-lg-4">
