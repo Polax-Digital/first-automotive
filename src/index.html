@@ -45,30 +45,33 @@ path: home
     <div class="page-content featured text-center pt-4">
         <h2>Featured Stock</h2>
         <div class="featured-wrapper row">
-            <div class="col-lg-4">
-                <picture>
-                    <source type="image/webp" srcset="/static/img/webp/featured.webp">
-                    <source type="image/png" srcset="/static/img/featured.png">
-                    <img src="static/img/featured.png" alt="Featured Car"></img>
-                </picture>
-                <p class="car-title">Porsche 928</p>
-            </div>
-            <div class="col-lg-4">
-                <picture>
-                    <source type="image/webp" srcset="/static/img/webp/featured.webp">
-                    <source type="image/png" srcset="/static/img/featured.png">
-                    <img src="static/img/featured.png" alt="Featured Car"></img>
-                </picture>
-                <p class="car-title">Porsche 928</p>
-            </div>
-            <div class="col-lg-4">
-                <picture>
-                    <source type="image/webp" srcset="/static/img/webp/featured.webp">
-                    <source type="image/png" srcset="/static/img/featured.png">
-                    <img src="static/img/featured.png" alt="Featured Car"></img>
-                </picture>
-                <p class="car-title">Porsche 928</p>
-            </div>
+
+            {% set postslist = collections.post %}
+
+            {% for post in postslist | reverse %}
+                {% if loop.index0 < 3 %}
+                    <div class="col-lg-4">
+                        <a href="{{ post.url | url }}">
+                            <div class="post mb-4">
+                                <img src="{{ post.data.thumbnail }}" alt="">
+                                <div class="post-content">
+                                    <p class="car-title">
+                                        <a href="{{ post.url | url }}">
+                                            {% if post.data.title %}
+                                                {{ post.data.title }}
+                                            {% else %}
+                                                Untitled
+                                            {% endif %}
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                {% endif %}
+            {% endfor %}
+
+            <a href="/blog" class="discover-btn mt-3">Discover More →</a>
         </div>
     </div>
 </div>

@@ -23,7 +23,7 @@ h1, h2 {
  font-family: "Montserrat SemiBold"; 
 }
 a {
-  color: #fff;
+  color: #000;
   text-decoration: none;
 }
 .nav-link {
@@ -40,7 +40,7 @@ a {
   color: #fff;
 }
 a:hover {
-  color: #fff;
+  color: #000;
   text-decoration: underline;
 }
 #page {
@@ -127,11 +127,25 @@ input[type="checkbox"]:checked ~ .hamburger {
 .featured img {
   max-width: 30rem;
 }
-.featured .car-title {
+.featured a {
   font-weight: 800;
   font-size: 1.2rem;
   text-transform: uppercase;
   font-family: "Montserrat Bold";
+}
+.featured a:hover {
+  text-decoration: none;
+}
+.featured-wrapper .col-lg-4 {
+  transition: transform .8s;
+}
+.featured-wrapper .col-lg-4:hover {
+  -ms-transform: scale(1.08); /* IE 9 */
+  -webkit-transform: scale(1.08); /* Safari 3-8 */
+  transform: scale(1.08);
+}
+.discover-btn:hover {
+  color: #58A4DC;
 }
 
 @media screen and (min-width: 576px) {
