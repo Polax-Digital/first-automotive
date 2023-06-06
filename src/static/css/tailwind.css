@@ -171,6 +171,7 @@ input[type="checkbox"]:checked ~ .hamburger {
   color: #fff;
   padding: 18rem 0;
   font-size: 2rem;
+  text-transform: uppercase;
 }
 .sc a:hover {
   text-decoration: none;
