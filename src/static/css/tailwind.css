@@ -26,6 +26,12 @@ a {
   color: #000;
   text-decoration: none;
 }
+.nav-wrapper {
+  background-color: #272727;
+}
+.homenav {
+  background-color: rgba(0, 0, 0, 0);
+}
 .nav-link {
   color: #fff !important;
   text-transform: uppercase;
@@ -221,12 +227,6 @@ input[type="checkbox"]:checked ~ .hamburger {
   -moz-animation-delay: 500ms;
   -o-animation-delay: 500ms;
   animation-delay: 500ms;
-}
-.animate-reveal-y.delay {
-  -webkit-animation-delay: 600ms;
-  -moz-animation-delay: 600ms;
-  -o-animation-delay: 600ms;
-  animation-delay: 600ms;
 }
 @-webkit-keyframes revealY {
   0% {
