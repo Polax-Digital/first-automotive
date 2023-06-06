@@ -28,8 +28,11 @@
     {% endif %}
   </head>
   <body>
+
     
-    {% include "./partials/navbar.html" %}
+    {% if path != "home" %}
+      {% include "./partials/navbar.html" %}
+    {% endif %}
 
     {{ content | safe }}
 
