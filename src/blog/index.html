@@ -8,7 +8,6 @@ layout: blog
             {% set postslist = collections.post %}
 
             {% for post in postslist | reverse %}
-            {% if loop.index0 < 3 %}
                 <div class="col-lg-4">
                     <a href="{{ post.url | url }}">
                         <div class="post mb-4">
@@ -44,7 +43,6 @@ layout: blog
                         </div>
                     </a>
                 </div>
-            {% endif %}
                 
             {% endfor %}
         </div>
