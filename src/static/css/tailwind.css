@@ -197,7 +197,9 @@ input[type="checkbox"]:checked ~ .hamburger {
   color: #ff7502;
   text-decoration: underline;
 }
-
+.thumbnail {
+  max-height: 20rem;
+}
 
 /* Animations */
 .animate-reveal-x {

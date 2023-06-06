@@ -9,23 +9,7 @@ layout: default
     <div class="thumbnail-wrapper text-center mb-5">
         <img src="{{thumbnail}}" alt="Post Thumbnail">
     </div>
-    {{ content | safe}}
-</div>
-<div class="text-center">
-    <picture>
-        <source type="image/webp" srcset="/static/img/webp/trust3.webp">
-        <source type="image/png" srcset="/static/img/trust3.png">
-        <img src="static/img/trust3.png" alt="Trust3.0 Logo" class="footer-logo">
-    </picture>
-</div>
-<div class="row footer-menu text-center">
-    <div class="col-lg-4">
-        <a href="/">Home</a>
-    </div>
-    <div class="col-lg-4">
-        <a href="/events">Events</a>
-    </div>
-    <div class="col-lg-4">
-        <a href="/blog" class="active">Blog</a>
+    <div class="page-content">
+        {{ content | safe}}
     </div>
 </div>
