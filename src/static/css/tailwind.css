@@ -147,6 +147,45 @@ input[type="checkbox"]:checked ~ .hamburger {
 .discover-btn:hover {
   color: #58A4DC;
 }
+.sc .col-lg-6 {
+  background-image: url("../img/header.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: all .5s ease-in-out;
+}
+.sc .col-lg-6:hover {
+  filter: brightness(85%);
+}
+.sc h2 {
+  color: #fff;
+  padding: 18rem 0;
+  font-size: 2rem;
+}
+.sc a:hover {
+  text-decoration: none;
+}
+.footer {
+  background-color: #272727;
+  padding: 2rem;
+  color: #fff;
+}
+.footer p {
+  margin-bottom: 0;
+  font-size: 1.1rem;
+}
+.footer a {
+  color: #fff;
+}
+.icon svg, .icon p {
+  display: inline;
+}
+.polax {
+  color: #ff7502 !important;
+}
+.polax:hover {
+  color: #ff7502;
+  text-decoration: underline;
+}
 
 @media screen and (min-width: 576px) {
   .menu-toggle {
