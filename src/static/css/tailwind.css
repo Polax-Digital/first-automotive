@@ -147,14 +147,19 @@ input[type="checkbox"]:checked ~ .hamburger {
 .discover-btn:hover {
   color: #58A4DC;
 }
+#sc1 {
+  background-image: url("../img/sc1.jpg");
+}
+#sc2 {
+  background-image: url("../img/sc2.jpg");
+}
 .sc .col-lg-6 {
-  background-image: url("../img/header.jpg");
   background-size: cover;
   background-position: center;
   transition: all .5s ease-in-out;
 }
 .sc .col-lg-6:hover {
-  filter: brightness(85%);
+  filter: brightness(60%);
 }
 .sc h2 {
   color: #fff;
