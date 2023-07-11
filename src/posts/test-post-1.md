@@ -1,7 +1,54 @@
 ---
-title: 2017 BMW M240i
-description: asdasdasd
+title: 1989 BMW 635CSI
+description: sdassdasfasf
 date: 2023-06-06T19:56:49.901Z
-thumbnail: /static/img/316978003_504773478248197_1894233935225350575_n.jpg
+thumbnail: /static/img/img_8251.jpg
+galleryImages:
+  - /static/img/img_8252.jpg
+  - /static/img/img_8253.jpg
+  - /static/img/img_8256.jpg
+  - /static/img/img_8257.jpg
+specs:
+  - price: £25,750
+    colour: Nogaro Silver Metallic
+    year: "1989"
+    mileage: 79,000 miles
+    engine: 3430cc 6 cylinder Petrol
+    reg: A635 ONE
 ---
-s﻿adadassfgvsdgfawsfasfDFwfsdfwesadfwasfqwe
+First Automotive proudly presents this 1989 BMW (E24) 635CSI, a true embodiment of classic
+elegance. With low mileage of just 79,000 miles, this remarkable vehicle has been cherished
+throughout its existence. Step into the driver's seat and feel the essence of automotive
+excellence. This 635CSI comes with a full-service history, a testament to the meticulous care it
+has received over the years. Recently, it underwent a flawless MOT, further attesting to its
+outstanding condition and roadworthiness.
+
+
+Under the bonnet lies a powerful 3.5-liter inline-six engine, renowned for its smooth power
+delivery and acceleration. Paired with a responsive automatic gearbox, the 635CSI offers a refined
+and dynamic driving experience.
+
+
+Immerse yourself in the luxurious cabin, surrounded by fine materials and exquisite
+craftsmanship.
+
+
+This 635CSI stands as a timeless icon, exuding a sense of style and elegance that never fades.
+With its low mileage, impeccable service history, recent MOT, and remarkable tech specs, it
+presents an outstanding opportunity for discerning collectors and enthusiasts.
+
+
+Priced at £25,750, this remarkable vehicle is ready to grace the roads once again. Don't miss your
+chance to own a piece of automotive history. Contact First Automotive today to secure this
+timeless example with only 79,000 miles and experience the unparalleled joy of driving a true
+classic.
+
+
+Technical Specifications:
+
+* Year: 1989
+* M﻿ake: BMW
+* M﻿odel: (E24) 635CSI
+* E﻿ngine: 3.5-liter inline-six
+* T﻿ransmission: Automatic
+* M﻿ileage: 79,000
