@@ -273,10 +273,10 @@ input[type="checkbox"]:checked ~ .hamburger {
   animation-delay: 300ms;
 }
 .animate-reveal-x.delay {
-  -webkit-animation-delay: 400ms;
-  -moz-animation-delay: 400ms;
-  -o-animation-delay: 400ms;
-  animation-delay: 400ms;
+  -webkit-animation-delay: 500ms;
+  -moz-animation-delay: 500ms;
+  -o-animation-delay: 500ms;
+  animation-delay: 500ms;
 }
 .animate-reveal-y {
   opacity: 0;
