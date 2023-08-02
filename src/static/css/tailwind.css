@@ -151,6 +151,9 @@ input[type="checkbox"]:checked ~ .hamburger {
   -webkit-transform: scale(1.08); /* Safari 3-8 */
   transform: scale(1.08);
 }
+.car-title a {
+  font-family: "Montserrat";
+}
 .discover-btn:hover {
   color: #58A4DC;
 }
