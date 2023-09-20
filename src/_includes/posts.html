@@ -5,6 +5,9 @@ layout: default
 
 <div class="blog-post mb-5">
     <h1 class="text-center mt-3">{{title}}</h1>
+    {% if sold %}
+        <h2 class="sold text-center mt-3">*** SOLD ***</h2>
+    {% endif %}
     <div class="thumbnail-wrapper text-center mb-5">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -38,10 +41,12 @@ layout: default
     <div class="page-content">
         <table class="table table-striped text-center w-75 mx-auto mb-5">
             <tbody>
-              <tr>
-                <td><b>Price</b></td>
-                <td>{{specs[0].price}}</td>
-              </tr>
+              {% if sold != true %}
+                  <tr>
+                      <td><b>Price</b></td>
+                      <td>{{specs[0].price}}</td>
+                  </tr>
+              {% endif %}
               <tr>
                 <td><b>Colour</b></td>
                 <td>{{specs[0].colour}}</td>

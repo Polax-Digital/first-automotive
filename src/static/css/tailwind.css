@@ -284,6 +284,13 @@ input[type="checkbox"]:checked ~ .hamburger {
 .blog-post .page-content {
   max-width: 50vw;
 }
+.sold {
+  color: #cc3333;
+  font-weight: bold;
+}
+h4.sold {
+  font-size: 1.3rem;
+}
 
 /* Animations */
 .animate-reveal-x {

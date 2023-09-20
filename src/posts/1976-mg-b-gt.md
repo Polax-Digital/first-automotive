@@ -1,5 +1,6 @@
 ---
 title: 1976 MG B GT
+sold: true
 thumbnail: /static/img/img_8299.jpg
 galleryImages:
   - /static/img/img_8302.jpg
@@ -15,3 +16,7 @@ specs:
     reg: NPR 212P
 ---
 1976 MG B GT in Seabreem Green. Only 21,000 miles! Rebuilt 1.8 engine, gearbox, and clutch in 2017. Just 10,000 miles since rebuild. Fitted with overdirve Excellent mechanical condition. Price: £4,500.00 MOT & Tax Exempt!
+
+
+
+C﻿hange something
