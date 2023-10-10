@@ -1,6 +1,6 @@
 ---
 title: 1976 MG B GT
-sold: true
+sold: false
 thumbnail: /static/img/img_8299.jpg
 galleryImages:
   - /static/img/img_8302.jpg
