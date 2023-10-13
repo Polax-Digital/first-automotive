@@ -1,7 +1,7 @@
 ---
 title: 2003 BMW M3 SMG
 sold: true
-thumbnail: /static/img/ac4e233e-23ff-47ca-8b36-bda187ba4e43.jpg
+thumbnail: /static/img/e0c42416-0073-48b6-9ca6-5b36a0a2836d.jpg
 galleryImages:
   - /static/img/3f102b39-ea39-41af-a83b-53ce68c2d0f0.jpg
   - /static/img/23a7bd07-76f1-48cd-9911-38fbeb690075.jpg
