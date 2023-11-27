@@ -7,5 +7,12 @@ galleryImages:
   - /static/img/img_2858.jpeg
   - /static/img/img_2853.jpeg
   - /static/img/img_2856.jpeg
+specs:
+  - price: £27,500
+    colour: White
+    year: "1969"
+    mileage: "41500"
+    engine: 7536cc
+    reg: RCD 425G
 ---
 Details coming soon
