@@ -1,6 +1,6 @@
 ---
 title: 2016 Volkswagen Golf R
-sold: false
+sold: true
 thumbnail: /static/img/img_5947.jpg
 galleryImages:
   - /static/img/img_5950.jpg
