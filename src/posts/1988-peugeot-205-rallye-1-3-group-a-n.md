@@ -1,12 +1,12 @@
 ---
 title: 1988 Peugeot 205 Rallye 1.3 Group A/N
 sold: false
-thumbnail: /static/img/img_7971.heic
+thumbnail: /static/img/img_7971.jpg
 galleryImages:
-  - /static/img/img_7975.heic
-  - /static/img/img_8048.heic
-  - /static/img/img_8089.heic
-  - /static/img/img_7954.heic
+  - /static/img/205-1.jpg
+  - /static/img/img_7975.jpg
+  - /static/img/img_8087.jpg
+  - /static/img/img_8048.jpg
 specs:
   - price: £18,750
     colour: White
