@@ -10,10 +10,10 @@ galleryImages:
   - /static/img/img_9135.jpg
   - /static/img/img_9159.jpg
 specs:
-  - price: £23,000
+  - price: £16,000
     colour: Flamenco Red
     year: "1993"
-    mileage: 39,000
+    mileage: "38000"
     engine: 6000cc
     reg: L428 WGO
 ---
