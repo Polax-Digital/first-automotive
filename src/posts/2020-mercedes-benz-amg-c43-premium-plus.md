@@ -1,6 +1,6 @@
 ---
 title: 2020 Mercedes-Benz AMG C43 Premium Plus
-sold: false
+sold: true
 thumbnail: /static/img/img_6014.jpg
 galleryImages:
   - /static/img/img_6015.jpg
