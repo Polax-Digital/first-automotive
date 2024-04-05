@@ -1,6 +1,6 @@
 ---
 title: JAGUAR XJS (V12)
-sold: false
+sold: true
 thumbnail: /static/img/img_9080.jpg
 galleryImages:
   - /static/img/img_9082.jpg
