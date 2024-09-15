@@ -10,7 +10,7 @@ layout: stock
             {% for post in postslist | reverse %}
                 {% if post.data.sold %}
                 {% else %}
-                    {% if post.data.performance %}
+                    {% if post.data.performance != true %}
                         <div class="col-lg-4">
                             <a href="{{ post.url | url }}">
                                 <div class="post mb-4">
@@ -75,7 +75,7 @@ layout: stock
 
             {% for post in postslist | reverse %}
                 {% if post.data.sold %}
-                    {% if post.data.performance %}
+                    {% if post.data.performance != true %}
                         <div class="col-lg-4">
                             <a href="{{ post.url | url }}">
                                 <div class="post mb-4">

@@ -1,6 +1,7 @@
 ---
 title: 2019 Ford Ranger Wildtrak 3.2 'DERANGED'
 sold: false
+performance: false
 thumbnail: /static/img/img_9666.jpg
 galleryImages:
   - /static/img/img_9646.jpg
