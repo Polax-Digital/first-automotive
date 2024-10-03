@@ -291,6 +291,19 @@ input[type="checkbox"]:checked ~ .hamburger {
 h4.sold {
   font-size: 1.3rem;
 }
+.stock-links {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.stock-links a {
+  font-family: "Montserrat SemiBold";
+  color: #58A4DC;
+  font-weight: 800;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
 
 /* Animations */
 .animate-reveal-x {
@@ -479,6 +492,9 @@ h4.sold {
   }
   .blog-post .page-content {
     max-width: 80vw;
+  }
+  .stock-links {
+    width: 100%;
   }
 }
 @media screen and (max-width: 576px) {

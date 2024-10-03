@@ -22,6 +22,7 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Mark as Sold", name: "sold", widget: "boolean", default: false}
+      - { label: "Mark as Coming Soon", name: "coming", widget: "boolean", default: false}
       - { label: "Mark as Performance", name: "performance", widget: "boolean", default: false}
       - { label: "Featured Image", name: "thumbnail", widget: "image" }
       - { label: "Gallery", name: "galleryImages", widget: "list", summary: '{{fields.image}}', field: {label: Image, name: image, widget: image} }
