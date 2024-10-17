@@ -2,13 +2,8 @@
 layout: stock
 ---
 
-<div class="stock-links row">
-    <div class="col-lg-6">
-        <a href="/stock/performance">Performance Stock →</a>
-    </div>
-    <div class="col-lg-6">
-        <a href="/stock/coming">Coming Soon →</a>
-    </div>
+<div class="stock-links">
+    <a href="/stock/performance">Performance Stock →</a>
 </div>
 <div class="container-fluid" id="page">
     <div class="posts-wrapper w-100">
@@ -19,7 +14,7 @@ layout: stock
                 {% if post.data.sold %}
                 {% else %}
                     {% if post.data.performance != true %}
-                        <div class="col-lg-4">
+                        <div class="col-md-6 col-lg-4">
                             <a href="{{ post.url | url }}">
                                 <div class="post mb-4">
                                     <img src="{{ post.data.thumbnail }}" alt="" class="thumbnail">
@@ -33,6 +28,9 @@ layout: stock
                                                 {% endif %}
                                             </a>
                                         </h3>
+                                        {% if post.data.coming %}
+                                            <h4 class="soon">*** COMING SOON ***</h4>
+                                        {% endif %}
                                         <p>
                                         </p>
                                         {% if post.data.specs %}
@@ -84,7 +82,7 @@ layout: stock
             {% for post in postslist | reverse %}
                 {% if post.data.sold %}
                     {% if post.data.performance != true %}
-                        <div class="col-lg-4">
+                        <div class="col-md-6 col-lg-4">
                             <a href="{{ post.url | url }}">
                                 <div class="post mb-4">
                                     <img src="{{ post.data.thumbnail }}" alt="" class="thumbnail">

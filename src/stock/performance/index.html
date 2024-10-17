@@ -1,5 +1,6 @@
 ---
 layout: stock
+title: Performance Stock - First Automotive
 ---
 
 <div class="container-fluid" id="page">
@@ -25,6 +26,9 @@ layout: stock
                                                 {% endif %}
                                             </a>
                                         </h3>
+                                        {% if post.data.coming %}
+                                            <h4 class="soon">*** COMING SOON ***</h4>
+                                        {% endif %}
                                         <p>
                                         </p>
                                         {% if post.data.specs %}
