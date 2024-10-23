@@ -468,7 +468,7 @@ h4.sold, h4.soon {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 991px) {
   .menu-toggle {
       opacity: 0;
       display: none;
