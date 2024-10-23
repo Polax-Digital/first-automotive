@@ -1,6 +1,8 @@
 ---
 title: 2010 Maserati Gran Cabrio
 sold: false
+coming: false
+performance: true
 thumbnail: /static/img/4cd5c8ea-5973-4199-8dd9-34d8553319ea.jpeg
 galleryImages:
   - /static/img/img_3151.jpeg
@@ -15,8 +17,6 @@ specs:
     engine: 4700cc
     reg: LK60 AVW
 ---
-
-
 First Automotive are pleased to offer this exquisite 2010 (60 plate) Maserati Gran Cabrio to the market. The car is in good condition with some age-related marks on the interior and has covered 56,000 miles. This stunning vehicle has had 7 owners and comes with the following service history, all performed at Dick Lovett Swindon:
 
 27/08/2014: 2-yearly service, Mileage: 19,792

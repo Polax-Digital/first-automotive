@@ -1,6 +1,7 @@
 ---
 title: 1969 Lincoln Continental
 sold: true
+coming: false
 performance: false
 thumbnail: /static/img/img_3441.jpeg
 galleryImages:

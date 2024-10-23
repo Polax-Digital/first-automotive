@@ -1,6 +1,8 @@
 ---
 title: 2003 BMW M3 SMG
 sold: true
+coming: false
+performance: true
 thumbnail: /static/img/e0c42416-0073-48b6-9ca6-5b36a0a2836d.jpg
 galleryImages:
   - /static/img/3f102b39-ea39-41af-a83b-53ce68c2d0f0.jpg
@@ -30,15 +32,15 @@ like never before.
 
 T﻿echnical Specifications:
 
-* Year: 2003
-* Model: BMW E46 M3 SMG
-* Color: Sterling Silver (Individual Finish)
-* Engine: 3.2-liter inline-six
-* Horsepower: 333 hp
-* Transmission: Sequential Manual Gearbox (SMG)
-* Mileage: 141,000 miles
-* Acceleration: 0-60 mph in 5.1 seconds
-* Sunroof model
+- Year: 2003
+- Model: BMW E46 M3 SMG
+- Color: Sterling Silver (Individual Finish)
+- Engine: 3.2-liter inline-six
+- Horsepower: 333 hp
+- Transmission: Sequential Manual Gearbox (SMG)
+- Mileage: 141,000 miles
+- Acceleration: 0-60 mph in 5.1 seconds
+- Sunroof model
 
 Note: All technical specifications are based on the manufacturer's data and may vary
 depending on the specific vehicle.
